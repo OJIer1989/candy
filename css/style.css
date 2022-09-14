@@ -1,0 +1,910 @@
+*{
+  box-sizing: border-box;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  background: #F5F5F5;
+}
+/* .bg-color{
+background-color: #fff;
+} */
+
+.header{
+  background-image: url(../image/photo9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw ;
+  background-position: center;
+  height: 300px;
+  filter: saturate(60%) brightness(60%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+ul{
+  padding-left: 0;
+}
+img{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+p,
+h3{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
+.container {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header-portfolio{
+  text-align: center;
+  color: #fff;
+  padding: 11px 0;
+}
+
+.portfolio-text{
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.13px;
+}
+.dot{
+vertical-align: super;
+margin-right: 18px;
+margin-left: 18px;
+color: #757575;
+}
+.header-nav{
+color: #fff;
+font-size: 18px;
+  display: flex;
+justify-content: space-between;
+  padding: 25px 0;
+margin-right: 71px;
+  align-items: center;
+}
+.header-logo{
+  width: 210px;
+  height: 60px;
+}
+
+.head-nav{
+  display: flex;
+}
+.li-nav{
+margin-right: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #525252;
+}
+.jonas-info{
+  padding-left: 96px;
+  padding-top: 126px;
+}
+.jonas-text,.jonas-span{
+  color: #000000;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 2.56px;
+  max-width: 825px;
+}
+.jonas-span{
+  color: #757575;
+  max-width: 877px;
+   margin-bottom: 54px;
+}
+.Featured-work_info{
+padding: 128px 96px 152px 96px;
+}
+.Featured-work_p{
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.54px;
+  margin-bottom: 31px;
+}
+.Featured-work_p>span{
+font-size: 18px;
+line-height: 23px;
+color: #757575;
+}
+.Featured-work_body{
+display: flex;
+}
+.Featured-work_section{
+display: inline-block;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  max-width: 612px;
+}
+.section:last-child{
+  justify-content: space-between;
+}
+.featured-img{
+ max-width: 100%;
+}
+ .section:first-child{
+ margin-right: 24px;
+ }
+ .featured-text{
+  margin: 24px 0 24px 24px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+ }
+ .featured-text>span{
+  color: #757575;
+ }
+ .about{
+  display: flex;
+  padding: 0 96px;
+ padding-bottom: 260px;
+ }
+ .section_img{
+width: 100%;
+ }
+
+ .about-me{
+  width: 50%;
+ }
+.about-me_text{
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.64px;
+}
+.about-text{
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 42px;
+}
+.about-text:last-child{
+  margin-bottom: 0;
+}
+.services-body{
+ padding: 132px 96px 256px 96px;
+}
+.experience{
+  display: flex;
+  width: 100%;
+  margin-bottom: 254px;
+}
+.experience-list{
+  width: 50%;
+}
+.experience-text,
+.experience-info{
+  width: 50%;
+}
+.experience-info{
+font-size: 30px;
+line-height: 41px;
+letter-spacing: 0.64px;
+}
+.experience-first{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  margin-bottom: 4px;
+}
+.experience-second{
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  color: #525252;
+  margin-bottom: 16px;
+}
+.experience-three{
+  font-size: 19px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+  color: #757575;
+}
+.experience-item{
+padding: 46px 0;
+border-bottom: 1px solid #F0F0F0;
+display: block;
+width: 100%;
+}
+.experience-item:first-child{
+  padding-top: 0;
+}
+.experience-item:last-child{
+  margin-bottom: 0;
+}
+.servise{
+display: flex;
+}
+.servises,
+.clients{
+  width: 50%;
+}
+
+.servises-info{
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.6px;
+  margin-bottom: 63px;
+}
+.servises-text{
+  font-size: 19px;
+  line-height: 26px;
+}
+.servises-item{
+padding: 25px 0;
+border-bottom: 1px solid #F0F0F0;
+margin-right: 72px;
+}
+
+.card-body{
+margin: 128px 96px;
+height: 596px;
+background: #FFEBD8;
+border-radius: 20px;
+display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+}
+.card-text{
+  font-size: 57px;
+  line-height: 73px;
+  letter-spacing: 2.56px;
+  max-width: 638px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.card-link{
+ font-size: 37px;
+  line-height: 52px;
+  letter-spacing: 1.2px;
+}
+.footer-body{
+    margin: 0 96px;
+    padding: 128px 0;
+}
+.link{
+  display: flex;
+justify-content: space-between;
+padding-bottom: 64px;
+border-bottom: 1px solid #F0F0F0;
+}
+.footer-nav{
+  display: flex;
+}
+.footer-nav_li{
+  margin-right: 31px;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.footer-nav_li:last-child{
+  margin-right: 0;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.footer-link{
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  margin-right: 32px;
+}
+.footer-info{
+  color: #525252;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.14px;
+  margin-left: 31px;
+}
+
+@media(max-width: 950px) {
+  .portfolio-text {
+    font-size: 13px;
+  }
+
+  .dot {
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+
+  .header-nav {
+    margin-right: 0;
+    justify-content: center;
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .li-nav:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .jonas-info {
+    padding-top: 65px;
+    padding-left: 45px;
+  }
+
+  .jonas-text,
+  .jonas-span {
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 30px;
+    width: 265px;
+    margin: 0 auto;
+  }
+
+  .Featured-work_info {
+    padding: 50px 40px;
+  }
+
+  .featured-text {
+    font-size: 10px;
+    margin-left: 0;
+    line-height: 12px;
+    margin: 12px 0;
+  }
+
+  .Featured-work_p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .Featured-work_p>span {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .about {
+    padding: 0 40px;
+    padding-bottom: 60px;
+  }
+
+  .about-me_text {
+    line-height: 0;
+  }
+
+  .about-me_text,
+  .about-text {
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  .services-body {
+    padding: 0 40px;
+    padding-top: 100px;
+  }
+
+  .experience-info {
+    font-size: 15px;
+  }
+
+  .servises-item {
+    margin-right: 20px;
+    padding: 15px 0;
+  }
+
+  .experience-first {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .experience-second {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .experience-three {
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+  .experience-item {
+    padding: 25px 0;
+  }
+
+  .experience {
+    margin-bottom: 100px;
+  }
+
+  .servises-info {
+    font-size: 17px;
+    line-height: 16px;
+    margin-bottom: 25px;
+  }
+
+  .servises-text {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  .footer-body {
+    padding: 50px 0;
+    margin: 0 40px;
+  }
+
+  .link {
+    padding-bottom: 15px;
+  }
+
+  .card-body {
+    margin: 70px 40px;
+    height: 380px;
+  }
+
+  .card-text {
+    font-size: 23px;
+    line-height: 30px;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .card-link {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .footer-nav_li {
+    margin-right: 26px;
+    font-size: 18px;
+    line-height: 0;
+  }
+
+  .info {
+    margin-top: 15px;
+  }
+
+  .footer-link {
+    font-size: 15px;
+    line-height: 0;
+    margin-right: 21px;
+  }
+
+  .footer-info {
+    font-size: 14px;
+    line-height: 0;
+    margin-left: 26px;
+  }
+}
+
+
+
+
+
+
+
+
+     /* Some styles for the containers */
+     #slider1 {
+       position: relative;
+       /* Containers need relative or absolute position. */
+       margin-left: 20px;
+       width: 256px;
+       height: 120px;
+       border-top: 1px solid #aaa;
+       border-bottom: 1px solid #aaa;
+     }
+  
+     #slider2 {
+       position: relative;
+       margin-left: 20px;
+       width: 75%;
+       height: 120px;
+       border-top: 1px solid #aaa;
+       border-bottom: 1px solid #aaa;
+     }
+  
+     #slider3 {
+       position: relative;
+       margin-top: 40px;
+       width: 93px;
+       height: 256px;
+       border-left: 1px solid #aaa;
+       border-right: 1px solid #aaa;
+       margin-bottom: 40px;
+     }
+
+
+
+
+
+
+
+  @media (max-width: 600px){
+  header{
+      position: sticky;
+        left: 0;
+        top: 0;
+  }
+    .header{
+      height: 120px;
+    
+    }
+    .head-nav{
+justify-content: space-around;
+    }
+    .header-logo{
+      display: block;
+      margin: auto;
+      margin-top: 100px;
+    }
+    .header-portfolio{
+      padding: 25px 0 20px 0;
+    }
+  .portfolio-text{
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    margin-right: 20px;
+  }
+
+  .header-logo{
+    width: 135px;
+    height: 60px;
+  }
+    .header-nav{
+      font-size: 18px;
+      color: #fff;
+      margin-right: 0;
+  display: block;
+      font-size: 13px;
+      padding: 0;
+      align-items: center;
+    }
+    .li-nav{
+      color: #fff;
+      font-size: 15px;
+      margin-right: 10px;
+    }
+    .featured-img{
+      margin-bottom: 15px;
+    }
+    .featured-info{
+      font-size: 15px;
+    }
+    .price{
+      font-size: 15px;
+    }
+  .featured-work_text{
+    text-align: left;
+  }
+    .Featured-work_section{
+      padding-bottom: 20px;
+    }
+    .li-nav:nth-child(3){
+      margin-right: 0;
+    }
+        .jonas-info{
+          padding-top: 65px;
+          padding-left: 45px;
+        }
+    .jonas-text,
+      .jonas-span{
+        font-size: 17px;
+        line-height: 22px;
+        padding-top: 30px;
+        width: 265px;
+      }
+       .Featured-work_info{
+       padding: 50px 40px;
+       text-align: center;
+       }
+           .featured-text{
+          font-size: 10px;
+          margin-left: 0;
+          line-height: 12px;
+          margin: 12px 0;
+           }
+        .Featured-work_p{
+          font-size: 10px;
+          line-height: 14px;
+          text-align: center;
+        }
+        .Featured-work_p>span{
+          font-size: 12px;
+          line-height: 14px;
+        }
+        .about{
+          padding: 0 40px;
+          padding-bottom: 60px;  
+        }
+      .about-me_text{
+        line-height: 0;
+      }
+      .about-me_text,
+      .about-text{
+        font-size: 15px;
+        line-height: 19px;
+        margin-bottom: 20px;
+      }
+      .services-body{
+        padding: 0 40px;
+        padding-top: 100px;
+      }
+      .experience-info{
+        font-size: 15px;
+      }
+       .servises-item{
+        margin-right: 20px;
+        padding: 15px 0;
+       }
+      .experience-first{
+         font-size: 14px;
+         line-height: 16px; 
+      }
+       .experience-second{
+       font-size: 12px;
+       line-height: 16px;
+       }
+       .experience-three{
+       font-size: 15px;
+       line-height: 16px;
+       }
+       .experience-item{
+        padding: 25px 0;
+       }
+      .experience{
+       margin-bottom: 100px;
+       }
+      .servises-info{
+        font-size: 15px;
+        line-height: 16px;
+        margin-bottom: 25px;
+      }
+      .servises-text {
+        font-size: 7px;
+        line-height: 17px;
+      }
+       .footer-body{
+         padding: 50px 0;
+         margin: 0 40px;
+       }
+       .link{
+        padding-bottom: 0;
+       }
+      .card-body{
+        margin: 70px 40px;
+        height: 380px;
+      }
+      .card-text{
+        font-size: 23px;
+        line-height: 30px;
+      }
+      .card-link{
+        font-size: 20px;
+        line-height: 25px;
+      }
+    
+      .footer-nav_li{
+       margin-right: 5px;
+       font-size: 8px;
+       line-height: 0;
+      }
+      .info{
+        margin-top: 10px;
+      }
+      .footer-link{
+        font-size: 6px;
+        line-height: 0;
+        margin-right: 6px;
+      }
+      .footer-info{
+        font-size: 7px;
+        line-height: 0;
+      margin-left: 6px;
+      }
+   } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 395px) {
+   .potfolio-text {
+     font-size: 10px;
+   }
+
+   .dot {
+     vertical-align: middle;
+     margin: 0 5px;
+   }
+
+   .header-nav {
+     margin-right: 0;
+     justify-content: center;
+     font-size: 13px;
+     padding: 0;
+     align-items: center;
+   }
+    .li-nav{
+      font-size: 12px;
+    }
+   .li-nav:nth-child(3) {
+     margin-right: 0;
+   }
+
+   .jonas-info {
+     padding-top: 65px;
+     padding-left: 45px;
+   }
+
+   .jonas-text,
+   .jonas-span {
+     font-size: 17px;
+     line-height: 22px;
+     padding-top: 30px;
+     width: 265px;
+   }
+
+   .Featured-work_info {
+     padding: 50px 0;
+     text-align: center;
+   }
+
+   .featured-text {
+     font-size: 10px;
+     margin-left: 0;
+     line-height: 12px;
+     margin: 12px 0;
+   }
+
+   .Featured-work_p {
+     font-size: 10px;
+     line-height: 14px;
+     text-align: center;
+   }
+
+   .Featured-work_p>span {
+     font-size: 12px;
+     line-height: 14px;
+   }
+
+   .about {
+     padding: 0;
+     padding-bottom: 60px;
+   }
+
+   .about-me_text {
+     line-height: 0;
+   }
+
+   .about-me_text,
+   .about-text {
+     font-size: 15px;
+     line-height: 19px;
+     margin-bottom: 20px;
+   }
+
+   .services-body {
+     padding: 0;
+     padding-top: 100px;
+   }
+
+   .experience-info {
+     font-size: 15px;
+   }
+
+   .servises-item {
+     margin-right: 20px;
+     padding: 15px 0;
+   }
+
+   .experience-first {
+     font-size: 14px;
+     line-height: 16px;
+   }
+
+   .experience-second {
+     font-size: 12px;
+     line-height: 16px;
+   }
+
+   .experience-three {
+     font-size: 15px;
+     line-height: 16px;
+   }
+
+   .experience-item {
+     padding: 25px 0;
+   }
+
+   .experience {
+     margin-bottom: 100px;
+   }
+
+   .servises-info {
+     font-size: 15px;
+     line-height: 16px;
+     margin-bottom: 25px;
+   }
+
+   .servises-text {
+     font-size: 7px;
+     line-height: 17px;
+   }
+
+   .footer-body {
+     padding: 50px 0;
+     margin: 0 ;
+   }
+
+   .link {
+     padding-bottom: 0;
+   }
+
+   .card-body {
+     margin: 70px 0;
+     height: 380px;
+   }
+
+   .card-text {
+     font-size: 23px;
+     line-height: 30px;
+   }
+
+   .card-link {
+     font-size: 20px;
+     line-height: 25px;
+   }
+
+   .footer-nav_li {
+     margin-right: 5px;
+     font-size: 8px;
+     line-height: 0;
+   }
+
+   .info {
+     margin-top: 10px;
+   }
+
+   .footer-link {
+     font-size: 4px;
+     line-height: 0;
+     margin-right: 4px;
+   }
+
+   .footer-info {
+     font-size: 4px;
+     line-height: 0;
+     margin-left: 4px;
+   }
+ }
+
+
+
+
+
